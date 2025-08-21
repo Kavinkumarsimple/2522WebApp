@@ -1,16 +1,20 @@
 /* This is how to pull font from your project to code */
 @font-face {
   font-family: "Barriecito-Regular";
-  src: url(../assets/fonts/Barriecito-Regular.ttf) format('truetype');
+  src: url(../assets/fonts/Barriecito-Regular.ttf) format("truetype");
 }
 
 @font-face {
   font-family: "Sancreek-Regular";
-  src: url(../assets/fonts/Sancreek-Regular.ttf) format('truetype');
+  src: url(../assets/fonts/Sancreek-Regular.ttf) format("truetype");
+}
+
+body {
+  margin: 0;
 }
 
 .custom_title {
-  font-family: 'Barriecito-Regular';
+  font-family: "Barriecito-Regular";
 }
 
 .magic_box {
@@ -22,7 +26,7 @@
 .magic_box:hover {
   background-color: green;
   transition: 1s;
-  cursor: pointer
+  cursor: pointer;
 }
 
 :root {
@@ -63,7 +67,9 @@
   flex-wrap: wrap;
 }
 
-.navbar {
+/* This is for mobile view */
+
+/* .navbar {
   background-color: black;
   display: flex;
   gap: 10px;
@@ -76,9 +82,31 @@
   flex: 1;
   margin: 10px;
   width: 120px;
+} */
+
+/* This is for web view */
+.navbar {
+  background-color: black;
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  position: fixed;
+  top: 0;
 }
 
-body {
-  margin: 0px;
+.menu-option {
+  font-size: 30px;
+  color: white;
+  flex: 1;
+  text-align: center;
+  padding: 10px;
 }
+
+.menu-option:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
 
