@@ -30,3 +30,33 @@
   --contentSize: 12px;
 }
 
+.card {
+  border: 2px solid rgb(211, 211, 211);
+  border-radius: 10px;
+  width: 250px;
+  padding: 20px;
+  background-color: rgb(247, 247, 247);
+}
+
+.cardImg {
+  object-fit: cover;
+  width: 250px;
+  height: 270px;
+}
+
+.cardTitle {
+  font-size: 25px;
+  padding: 0;
+  margin: 10px 0px 0px 0px;
+  font-weight: bold;
+}
+
+.cardDesc {
+  font-size: 20px;
+  padding: 0;
+  margin: 5px 0px 0px 0px;
+}
+
+.cardsContainer {
+  display: flex;
+}
