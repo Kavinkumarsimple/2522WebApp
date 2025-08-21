@@ -63,3 +63,22 @@
   flex-wrap: wrap;
 }
 
+.navbar {
+  background-color: black;
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.menu-icon {
+  flex: 1;
+  margin: 10px;
+  width: 120px;
+}
+
+body {
+  margin: 0px;
+}
+
